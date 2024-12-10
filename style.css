@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #222222;
+
+}
+
+header{
+height: 10vh;
+display: flex;
+}
+
+nav{
+    display: flex;
+
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45vw;
+
+}
+
+header nav ul li img{
+    width: 8vw;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul a{
+    text-decoration: none;
+    font-family: 'REM', sans-serif;
+    font-weight: 600;
+    color: #000000;
+    font-size: 15px;
+}
+
+header nav ul a:hover{
+    color: #0084ff;
+}
+
+main{
+    background-color: #f3f8f8;
+
+}
+
+.banner{
+    background-image: url(https://images4.alphacoders.com/132/1322297.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.banner div{
+    width: 25vw;
+}
+
+.banner h2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 86%;
+    width: 26vw;
+    color: #ffffff;
+    font-size: 25px;
+    text-shadow: 0px 2px 4px rgb(255, 0, 0);
+    font-family: 'REM', sans-serif;
+
+}
+
+.banner img{
+    width: 23vw;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.sinopse{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sinopse img{
+    width: 33vw;
+    margin-left: 40px;
+    box-shadow:  rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;;
+}
+
+.containerSinopse{
+    width: 53%;
+    color: #222222;
+
+}
+
+h1{
+    font-family: 'REM', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.infoSinopse {
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 20px;
+    font-family: 'REM', sans-serif;
+    color: #222222;
+
+}
+
+.resumoSinopse{
+    color: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 28px;
+}
+
+.resumoSinopse p{
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+
+.resumoSinopse ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 55vh;
+    list-style: none;
+}
+
+.resumoSinopse ul li h3{
+    font-size: 18px;
+    margin-bottom: 9px;
+    font-weight: 600;
+}
+
+.resumoSinopse ul li p{
+    margin-bottom: 28px;
+}
+
+.videos{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 80vh;
+    font-family: 'Barlow', sans-serif;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.videos div iframe{
+    width: 35vw;
+    height: 45vh;
+    border-radius: 6px;
+}
+
+.videos h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.videos p{
+    margin-bottom: 30px;
+    font-size: 19px;
+    font-weight: 500;
+
+}
+
+.videos p:hover{
+    color: #0084ff;
+    cursor: pointer;
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 65vh;
+}
+
+.div2{
+   display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 65vh;
+}
+
+.div2 div{
+   height: 36px;
+}
+
+.maisFilmes{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.maisFilmesh2 h2{
+    width: 29%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.filmes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.filmes div{
+    height: 50vh;
+    width: 15vw;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.filmes div:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition: 350ms linear;
+    border-radius: 0;
+
+}
+
+.marvels{
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/image_2edaea8f.jpeg?region=0%2C0%2C540%2C810);
+}
+
+.sereia{
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/image_87191ae8.jpeg?region=0%2C0%2C540%2C810);
+}
+
+.thor{
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/image_a9951b10.jpeg?region=0%2C0%2C540%2C810);
+}
+
+.avatar{
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/image_1c148dd1.jpeg?region=0%2C0%2C540%2C810);
+}
+
+.drStrange{
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/image_5a404a17.jpeg?region=0%2C0%2C540%2C810);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    padding-top: 30px;
+    font-family: 'Barlow', sans-serif;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+}
+
+.redes{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.redes h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+footer nav img{
+    width: 50px;
+    border-radius: 100%;
+
+}
+
+footer nav img:hover{
+    transform: scale(1.2);
+    transition: 200ms;
+    box-shadow: rgba(163, 6, 6, 0.56) 0px 22px 70px 4px;
+
+}
+
+.direitosReservados{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+
+.direitosReservados img{
+    width: 100px;
+}
+
